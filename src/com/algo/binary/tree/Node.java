@@ -30,6 +30,7 @@ public class Node {
 
 	public void setLeft(Node left) {
 		this.left = left;
+		left.parent = this;
 	}
 
 	public Node getRight() {
@@ -38,6 +39,7 @@ public class Node {
 
 	public void setRight(Node right) {
 		this.right = right;
+		right.parent = this;
 	}
 
 	public Node getParent() {
