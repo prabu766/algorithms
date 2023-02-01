@@ -10,7 +10,6 @@ public class Node {
 	private int value;
 	private Node left;
 	private Node right;
-	private Node parent;
 
 	Node(int value) {
 		this.value = value;
@@ -30,7 +29,6 @@ public class Node {
 
 	public void setLeft(Node left) {
 		this.left = left;
-		left.parent = this;
 	}
 
 	public Node getRight() {
@@ -39,16 +37,6 @@ public class Node {
 
 	public void setRight(Node right) {
 		this.right = right;
-		right.parent = this;
 	}
-
-	public Node getParent() {
-		return parent;
-	}
-
-	public void setParent(Node parent) {
-		this.parent = parent;
-	}
-
 	
 }
