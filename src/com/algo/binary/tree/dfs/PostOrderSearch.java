@@ -8,6 +8,13 @@ import com.algo.binary.tree.Node;
 
 /**
  * This class is going to show how to traverse a tree in depth first + post order traversal method
+ * 
+ * 1. Read the right node
+ * 2. Read the left node
+ * 3. Read the current node
+ * 
+ * This is also known as LDR method as  L -> Left, R -> Right, D -> Data
+ * 
  * @author prabhuddha.bhashitha
  *
  */

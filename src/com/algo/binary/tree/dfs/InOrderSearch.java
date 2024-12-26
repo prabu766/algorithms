@@ -9,6 +9,15 @@ import com.algo.binary.tree.Node;
 /**
  * 
  * This class is going to show how to traverse a tree in depth first + In order traversal method
+ * 
+ * In Order traversal steps are as follows
+ * 
+ * 1. Read the left  node
+ * 2. Read the current node
+ * 3. Read the right node
+ * 
+ * This is also known as LDR method as  L -> Left, D -> Data, R -> Right
+ * 
  * @author prabhuddha.bhashitha
  *
  */
