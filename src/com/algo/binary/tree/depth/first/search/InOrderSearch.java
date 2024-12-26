@@ -1,4 +1,4 @@
-package com.algo.binary.tree.dfs;
+package com.algo.binary.tree.depth.first.search;
 
 import java.util.Arrays;
 import java.util.List;
